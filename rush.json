@@ -347,5 +347,21 @@
       "reviewCategory": "common",
       "versionPolicyName": "prerelease-edm-lockStep"
     }
+    ,
+    {
+      "packageName": "state",
+      "projectFolder": "state",
+      "shouldPublish": true,
+      "reviewCategory": "common",
+      "versionPolicyName": "prerelease-edm-lockStep"
+    }
+    ,
+    {
+      "packageName": "iterator",
+      "projectFolder": "iterator",
+      "shouldPublish": true,
+      "reviewCategory": "common",
+      "versionPolicyName": "prerelease-edm-lockStep"
+    }
   ]
 }

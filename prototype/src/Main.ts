@@ -1,7 +1,7 @@
 import { ContextMenu } from "./ContextMenu";
 import { Valve } from "./Valve";
 
-// Create new objects by copying an existing object
+console.log("Create new objects by copying an existing object");
 
 const valve = new Valve(100);
 valve.radius = 200;
