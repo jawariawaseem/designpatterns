@@ -362,6 +362,13 @@
       "shouldPublish": true,
       "reviewCategory": "common",
       "versionPolicyName": "prerelease-edm-lockStep"
+    },
+    {
+      "packageName": "strategy",
+      "projectFolder": "strategy",
+      "shouldPublish": true,
+      "reviewCategory": "common",
+      "versionPolicyName": "prerelease-edm-lockStep"
     }
   ]
 }

@@ -6,6 +6,7 @@ specifiers:
   '@rush-temp/iterator': file:./projects/iterator.tgz
   '@rush-temp/prototype': file:./projects/prototype.tgz
   '@rush-temp/state': file:./projects/state.tgz
+  '@rush-temp/strategy': file:./projects/strategy.tgz
   '@types/node': ^18.11.9
   ts-node: ^10.9.1
   typescript: ^4.9.3
@@ -16,6 +17,7 @@ dependencies:
   '@rush-temp/iterator': file:projects/iterator.tgz
   '@rush-temp/prototype': file:projects/prototype.tgz
   '@rush-temp/state': file:projects/state.tgz
+  '@rush-temp/strategy': file:projects/strategy.tgz
   '@types/node': 18.11.18
   ts-node: 10.9.1_0581ab4a3d99d86da3e98604f38a692c
   typescript: 4.9.4
@@ -194,6 +196,19 @@ packages:
   file:projects/state.tgz:
     resolution: {integrity: sha512-Ve0n3WzhtQ5Fmg5ZldPXoB27ea/P4rJupAh0HRlOQRSre2c7guqGQG5vldsLajjntBR0vmDVvy61oktDg10C/w==, tarball: file:projects/state.tgz}
     name: '@rush-temp/state'
+    version: 0.0.0
+    dependencies:
+      '@types/node': 18.11.18
+      ts-node: 10.9.1_0581ab4a3d99d86da3e98604f38a692c
+      typescript: 4.9.4
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+    dev: false
+
+  file:projects/strategy.tgz:
+    resolution: {integrity: sha512-oDXQEsBjtz/AbnK7HN/GlBeBTBPyVfFID2oSZDr+2kbEWdhfd64N5QbI0dMoX8j73oVQb59eDsmaZGjGIyciig==, tarball: file:projects/strategy.tgz}
+    name: '@rush-temp/strategy'
     version: 0.0.0
     dependencies:
       '@types/node': 18.11.18
