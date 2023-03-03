@@ -369,6 +369,13 @@
       "shouldPublish": true,
       "reviewCategory": "common",
       "versionPolicyName": "prerelease-edm-lockStep"
+    },
+    {
+      "packageName": "assessment",
+      "projectFolder": "assessment",
+      "shouldPublish": true,
+      "reviewCategory": "common",
+      "versionPolicyName": "prerelease-edm-lockStep"
     }
   ]
 }

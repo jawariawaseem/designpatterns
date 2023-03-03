@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@rush-temp/assessment': file:./projects/assessment.tgz
   '@rush-temp/builder': file:./projects/builder.tgz
   '@rush-temp/fly-weight': file:./projects/fly-weight.tgz
   '@rush-temp/iterator': file:./projects/iterator.tgz
@@ -12,6 +13,7 @@ specifiers:
   typescript: ^4.9.3
 
 dependencies:
+  '@rush-temp/assessment': file:projects/assessment.tgz
   '@rush-temp/builder': file:projects/builder.tgz
   '@rush-temp/fly-weight': file:projects/fly-weight.tgz
   '@rush-temp/iterator': file:projects/iterator.tgz
@@ -139,6 +141,19 @@ packages:
   /yn/3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
+    dev: false
+
+  file:projects/assessment.tgz:
+    resolution: {integrity: sha512-4QpP6A5lTf5d8VPu8SR2TzD6aTYkiPm2EjupAtFvDawKQK2asuozA5fWCPU41c7c7lp6WPhWCF//cdeyqPpEbg==, tarball: file:projects/assessment.tgz}
+    name: '@rush-temp/assessment'
+    version: 0.0.0
+    dependencies:
+      '@types/node': 18.11.18
+      ts-node: 10.9.1_0581ab4a3d99d86da3e98604f38a692c
+      typescript: 4.9.4
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
     dev: false
 
   file:projects/builder.tgz:
